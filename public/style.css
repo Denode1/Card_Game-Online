@@ -1,0 +1,161 @@
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.control {
+    height: 720px;
+    width: 1280px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+ 
+/* Butoane Start */
+button {
+    width: 200px;
+    height: 50px;
+    margin-right: 3%;
+    margin-top: 25%;
+    font-size: 140%;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color:#b03a2e;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 8px rgb(129, 38, 38);
+    display: block;
+    outline: none;
+}
+button:hover {
+    outline: none;
+    background-color:   #e9877c ;
+}
+button:active {
+    outline: none;
+    background-color:#b03a2e;
+    box-shadow: 0 4px rgb(134, 19, 19);
+    transform: translateY(5%);
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+
+
+/* FullScreen Image*/
+.fullImg {
+    cursor: pointer;
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    width: 5%;
+    height: 10%;
+}
+
+.fullImg2 {
+    cursor: pointer;
+    position: absolute;
+    left: 94%;
+    top: 2%;
+    width: 4vw;
+    height: 8vh;
+}
+
+.credit {
+    margin-top: 20%;
+    margin-right: 3%;
+    position: absolute;
+    font-size: 140%;
+    color: white;
+}
+.card {
+    cursor: pointer;
+    position: absolute;
+    height: 250px;
+    width: 160px;
+    pointer-events: none;
+}
+.card1 {
+    top: 460px;
+    left: 0px;
+}
+
+.card2 {
+    top: 460px;
+    left: 170px;
+}
+
+.card3 {
+    top: 460px;
+    left: 340px;
+}
+
+.card4 {
+    top: 460px;
+    left: 510px;
+}
+
+.card5 {
+    top: 460px;
+    left: 680px;
+}
+
+.card6 {
+    top: 10px;
+    left: 0px;
+}
+
+.card7 {
+    top: 10px;
+    left: 170px;
+}
+
+.card8 {
+    top: 10px;
+    left: 340px;
+}
+
+.card9 {
+    top: 10px;
+    left: 510px;
+}
+
+.card10 {
+    top: 10px;
+    left: 680px;
+}
+
+.bet {
+    width: 140px;
+    height: 20px;
+    position: absolute;
+    top: 57%;
+    left: 0;
+    background-color: rgb(71, 8, 8);
+    color: white;
+}
+
+.betSubmit {
+    cursor: pointer;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    top: 12%;
+    left: 13%;
+}
+
+.betSubmit:hover {
+    outline: none;
+    background-color:   #e9877c ;
+}
+.betSubmit:active {
+    outline: none;
+    background-color:#b03a2e;
+    box-shadow: 0 4px rgb(134, 19, 19);
+    transform: translateY(5%);
+}
+.betSubmit::-moz-focus-inner {
+    border: 0;
+}
