@@ -1,4 +1,4 @@
-# E-Card_Gane
+# E-Card_Game
 Run the server with: node server.js
 
 # Requirements
