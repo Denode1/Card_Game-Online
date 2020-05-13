@@ -2,5 +2,5 @@
 Run the server with: node server.js
 
 # Requirements
-NodeJS
+NodeJS "\n"
 npm
