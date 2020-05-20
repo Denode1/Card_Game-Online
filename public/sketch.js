@@ -35,7 +35,7 @@ function setup() {
     for(var i = 1; i <= 5; ++i)
         v[i] = i, f[i] = 0;
     myCanvas = createCanvas(1280, 720);
-    socket = io.connect("http://192.168.0.241:3000/")
+    socket = io.connect("http://X.X.X.X:3000/")
     socket.on('receiveData',
         function(data) {
             // console.log(data.aL, data.aT);
